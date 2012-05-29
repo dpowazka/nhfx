@@ -173,14 +173,6 @@ def value(node):
 def write_to(string, path):
     with open(path,"w") as f:
         f.write(string)
-
-def example1():
-    root = parse(open("tests/69.xml").read())
-    assets = root.filter(named("asset_name"))
-    for asset in assets:
-        text = one(asset, texts)
-        text.value = text.value.split("\\")[-1]
-    print root.render()
     
 
 
