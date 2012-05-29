@@ -1,18 +1,18 @@
 from nhfx import *
 
  
+#The task here is to replace all asset_names and texture filenams 
+#with shorten paths D:\work\AvoiderAndroid\gleed2d\player_2 -> player_2
 root = parse(open("69.xml").read())
     
-ContentRootFolder = one(root, parent(named("ContentRootFolder")))
+ContentRootFolder = filter(parent_is(named("ContentRootFolder")), root)[0]
 ContentRootFolder.value = "D:\\work\\AvoiderAndroid\\gleed2d\\"
     
-has_asset_name = lambda e: len(e.filter(named("asset_name")))==1
-items = root.filter(AND(named("Item"), has_asset_name))
-for item in items:
-    asset_name = one(item, AND(texts, parent(named("asset_name"))))
-    asset_name.value = asset_name.value.split("\\")[-1]
-        
-    texture_filename = one(item, AND(texts, parent(named("texture_filename"))))
-    texture_filename.value = texture_filename.value.split("\\")[-1]
-        
-write_to(root.render(), "69b.xml")
+for asset in filter(AND(parent_is(named("asset_name")), texts), root):
+    asset.value = asset.value.split("\\")[-1]
+    
+    
+for texture in filter(AND(parent_is(named("texture_filename")), texts), root):
+    texture.value = texture.value.split("\\")[-1]
+    
+print root.render() 

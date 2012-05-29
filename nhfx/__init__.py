@@ -5,8 +5,8 @@ class Node(object):
     def __init__(self):
         self.parent = None
         
-    def filter(self, method):
-        raise NotImplementedError("Node.filter")
+    def __iter__(self):
+        raise NotImplementedError("Node.__iter__")
     
     def render(self):
         raise NotImplementedError("Node.render")
@@ -21,11 +21,8 @@ class Text(Node):
     def __repr__(self):
         return "Text(%s)" % str(self.value)
     
-    def filter(self, method):
-        if method(self):
-            return [self]
-        else:
-            return []
+    def __iter__(self):
+        yield self
         
     def render(self):
         if self.value is None:
@@ -44,11 +41,8 @@ class Attribute(Node):
     def __repr__(self):
         return "Attribute(%s, %s)" % (self.name, str(self.value))
     
-    def filter(self, method):
-        if method(self):
-            return [self]
-        else:
-            return []
+    def __iter__(self):
+        yield self
         
     def render(self):
         return '%s="%s"' %(self.name, str(self.value))
@@ -68,15 +62,18 @@ class Element(Node):
     def __repr__(self):
         return "Element(%s)" % self.name
     
-    def filter(self, method): 
-        values = []
-        if method(self):
-            values.append(self)
-        
-        for element in self._childs: 
-            values.extend(element.filter(method))
+    def __iter__(self):
+        yield self
+        for child in self._childs:
+            for node in child:
+                yield node
                 
-        return values
+    def delete(self):
+        if self.parent is not None:
+            self.parent._childs.remove(self)
+            self.parent = None
+            
+        return self
     
     def render(self):
         attrs = filter(attributes, self._childs)
@@ -149,7 +146,7 @@ def named(name):
         return hasattr(node, "name") and node.name == name
     return inner
 
-def parent(method):
+def parent_is(method):
     def inner(node):
         return method(node.parent)
     return inner
@@ -157,6 +154,9 @@ def parent(method):
 #Utilities
 def one(root, method):
     return root.filter(method)[0]
+
+def delete(node):
+    node.delete()
 
 def attribute(element, name):
     return element.filter(AND(attributes, named(name), childof(element)))[0]
