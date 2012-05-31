@@ -1,0 +1,20 @@
+<ops:ops xmlns:ops="http://flightdataservices.com/ops.xsd">
+    <ops:aircraft>N608WB</ops:aircraft>
+    <flight_number>123123</flight_number>
+    <type>COMMERCIAL</type>
+    
+    <takeoff_airport> 
+        <code_type>ICAO</code_type> 
+        <code>EGLL</code> 
+    </takeoff_airport>
+    
+    <takeoff_gate_datetime>2009-12-30T21:35:59</takeoff_gate_datetime>
+    <takeoff_datetime>2009-12-30T21:39:59</takeoff_datetime>
+    <landing_airport> 
+        <code_type>ICAO</code_type> 
+        <code>EPWA</code> 
+    </landing_airport>
+    
+    <landing_gate_datetime>2009-12-30T23:35:59</landing_gate_datetime>
+    <landing_datetime>2009-12-30T23:32:59</landing_datetime>
+</ops:ops>
