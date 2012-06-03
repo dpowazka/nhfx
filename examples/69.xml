@@ -1,14 +1,13 @@
-<?xml version="1.0"?>
 <Level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Level_01" Visible="true">
     <Layers>
-        <Layer Name="layer" Visible="true">
+        <Layer Visible="true" Name="layer">
             <Items>
-                <Item xsi:type="RectangleItem" Name="Rectangle_0001" Visible="true">
+                <Item Visible="true" xsi:type="RectangleItem" Name="Rectangle_0001">
                     <Position>
                         <X>0</X>
                         <Y>-480</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Width>800</Width>
                     <Height>480</Height>
                     <FillColor>
@@ -19,12 +18,12 @@
                         <PackedValue>2445279424</PackedValue>
                     </FillColor>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0002" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0002">
                     <Position>
                         <X>368</X>
                         <Y>-272</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -39,19 +38,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\player_1.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\player_1</asset_name>
+                    <texture_filename>player_1.png</texture_filename>
+                    <asset_name>player_1</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0003" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0003">
                     <Position>
                         <X>432</X>
                         <Y>-208</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -66,19 +65,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\player_2.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\player_2</asset_name>
+                    <texture_filename>player_2.png</texture_filename>
+                    <asset_name>player_2</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0019" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0019">
                     <Position>
                         <X>480</X>
                         <Y>-272</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -93,19 +92,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0021" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0021">
                     <Position>
                         <X>64</X>
                         <Y>-160</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>1.57079637</Rotation>
                     <Scale>
                         <X>1</X>
@@ -120,19 +119,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0025" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0025">
                     <Position>
                         <X>64</X>
                         <Y>-320</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>1.57079637</Rotation>
                     <Scale>
                         <X>1</X>
@@ -147,19 +146,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0026" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0026">
                     <Position>
                         <X>736</X>
                         <Y>-320</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>1.57079637</Rotation>
                     <Scale>
                         <X>1</X>
@@ -174,19 +173,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0027" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0027">
                     <Position>
                         <X>736</X>
                         <Y>-160</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>1.57079637</Rotation>
                     <Scale>
                         <X>1</X>
@@ -201,20 +200,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0028" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0028">
                     <Position>
                         <X>632</X>
                         <Y>-272</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0030</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0030</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -230,19 +229,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0029" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0029">
                     <Position>
                         <X>632</X>
                         <Y>-272</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -257,24 +256,24 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rotation_center.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rotation_center</asset_name>
+                    <texture_filename>rotation_center.png</texture_filename>
+                    <asset_name>rotation_center</asset_name>
                     <Origin>
                         <X>16</X>
                         <Y>16</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0030" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0030">
                     <Position>
                         <X>680</X>
                         <Y>-240</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="rotate" Type="Item" Description="">Texture_0029</Property>
-                        <Property Name="time" Type="string" Description="">
+                        <Property Type="Item" Name="rotate" Description="">Texture_0029</Property>
+                        <Property Type="string" Name="time" Description="">
                             <string>7</string>
                         </Property>
-                        <Property Name="angle" Type="string" Description="">
+                        <Property Type="string" Name="angle" Description="">
                             <string>360</string>
                         </Property>
                     </CustomProperties>
@@ -292,20 +291,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\action.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\action</asset_name>
+                    <texture_filename>action.png</texture_filename>
+                    <asset_name>action</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0031" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0031">
                     <Position>
                         <X>176</X>
                         <Y>-168</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0033</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0033</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -321,19 +320,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0032" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0032">
                     <Position>
                         <X>176</X>
                         <Y>-168</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -348,24 +347,24 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rotation_center.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rotation_center</asset_name>
+                    <texture_filename>rotation_center.png</texture_filename>
+                    <asset_name>rotation_center</asset_name>
                     <Origin>
                         <X>16</X>
                         <Y>16</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0033" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0033">
                     <Position>
                         <X>224</X>
                         <Y>-136</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="rotate" Type="Item" Description="">Texture_0032</Property>
-                        <Property Name="time" Type="string" Description="">
+                        <Property Type="Item" Name="rotate" Description="">Texture_0032</Property>
+                        <Property Type="string" Name="time" Description="">
                             <string>7</string>
                         </Property>
-                        <Property Name="angle" Type="string" Description="">
+                        <Property Type="string" Name="angle" Description="">
                             <string>360</string>
                         </Property>
                     </CustomProperties>
@@ -383,19 +382,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\action.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\action</asset_name>
+                    <texture_filename>action.png</texture_filename>
+                    <asset_name>action</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0037" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0037">
                     <Position>
                         <X>120</X>
                         <Y>-64</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -410,20 +409,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0038" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0038">
                     <Position>
                         <X>488</X>
                         <Y>-408</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0040</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0040</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -439,19 +438,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0039" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0039">
                     <Position>
                         <X>488</X>
                         <Y>-408</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -466,24 +465,24 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rotation_center.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rotation_center</asset_name>
+                    <texture_filename>rotation_center.png</texture_filename>
+                    <asset_name>rotation_center</asset_name>
                     <Origin>
                         <X>16</X>
                         <Y>16</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0040" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0040">
                     <Position>
                         <X>536</X>
                         <Y>-376</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="rotate" Type="Item" Description="">Texture_0039</Property>
-                        <Property Name="time" Type="string" Description="">
+                        <Property Type="Item" Name="rotate" Description="">Texture_0039</Property>
+                        <Property Type="string" Name="time" Description="">
                             <string>7</string>
                         </Property>
-                        <Property Name="angle" Type="string" Description="">
+                        <Property Type="string" Name="angle" Description="">
                             <string>-360</string>
                         </Property>
                     </CustomProperties>
@@ -501,19 +500,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\action.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\action</asset_name>
+                    <texture_filename>action.png</texture_filename>
+                    <asset_name>action</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0042" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0042">
                     <Position>
                         <X>448</X>
                         <Y>-152</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -528,20 +527,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\small_rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\small_rect</asset_name>
+                    <texture_filename>small_rect.png</texture_filename>
+                    <asset_name>small_rect</asset_name>
                     <Origin>
                         <X>40</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0043" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0043">
                     <Position>
                         <X>472</X>
                         <Y>-48</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0045</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0045</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -557,19 +556,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rect</asset_name>
+                    <texture_filename>rect.png</texture_filename>
+                    <asset_name>rect</asset_name>
                     <Origin>
                         <X>80</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0044" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0044">
                     <Position>
                         <X>472</X>
                         <Y>-48</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -584,24 +583,24 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rotation_center.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rotation_center</asset_name>
+                    <texture_filename>rotation_center.png</texture_filename>
+                    <asset_name>rotation_center</asset_name>
                     <Origin>
                         <X>16</X>
                         <Y>16</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0045" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0045">
                     <Position>
                         <X>520</X>
                         <Y>-16</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="rotate" Type="Item" Description="">Texture_0044</Property>
-                        <Property Name="time" Type="string" Description="">
+                        <Property Type="Item" Name="rotate" Description="">Texture_0044</Property>
+                        <Property Type="string" Name="time" Description="">
                             <string>7</string>
                         </Property>
-                        <Property Name="angle" Type="string" Description="">
+                        <Property Type="string" Name="angle" Description="">
                             <string>-360</string>
                         </Property>
                     </CustomProperties>
@@ -619,19 +618,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\action.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\action</asset_name>
+                    <texture_filename>action.png</texture_filename>
+                    <asset_name>action</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0046" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0046">
                     <Position>
                         <X>688</X>
                         <Y>-360</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -646,20 +645,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\red_star.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\red_star</asset_name>
+                    <texture_filename>red_star.png</texture_filename>
+                    <asset_name>red_star</asset_name>
                     <Origin>
                         <X>34</X>
                         <Y>34</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0047" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0047">
                     <Position>
                         <X>488</X>
                         <Y>-360</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0040</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0040</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -675,20 +674,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\blue_star.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\blue_star</asset_name>
+                    <texture_filename>blue_star.png</texture_filename>
+                    <asset_name>blue_star</asset_name>
                     <Origin>
                         <X>34</X>
                         <Y>34</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0051" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0051">
                     <Position>
                         <X>0</X>
                         <Y>-240</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0057</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0057</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -704,20 +703,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\small_rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\small_rect</asset_name>
+                    <texture_filename>small_rect.png</texture_filename>
+                    <asset_name>small_rect</asset_name>
                     <Origin>
                         <X>40</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0052" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0052">
                     <Position>
                         <X>-128</X>
                         <Y>-240</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0057</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0057</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -733,20 +732,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\small_rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\small_rect</asset_name>
+                    <texture_filename>small_rect.png</texture_filename>
+                    <asset_name>small_rect</asset_name>
                     <Origin>
                         <X>40</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0053" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0053">
                     <Position>
                         <X>-64</X>
                         <Y>-304</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0057</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0057</Property>
                     </CustomProperties>
                     <Rotation>1.57079637</Rotation>
                     <Scale>
@@ -762,20 +761,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\small_rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\small_rect</asset_name>
+                    <texture_filename>small_rect.png</texture_filename>
+                    <asset_name>small_rect</asset_name>
                     <Origin>
                         <X>40</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0054" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0054">
                     <Position>
                         <X>-64</X>
                         <Y>-176</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0057</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0057</Property>
                     </CustomProperties>
                     <Rotation>1.57079637</Rotation>
                     <Scale>
@@ -791,20 +790,20 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\small_rect.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\small_rect</asset_name>
+                    <texture_filename>small_rect.png</texture_filename>
+                    <asset_name>small_rect</asset_name>
                     <Origin>
                         <X>40</X>
                         <Y>20</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0055" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0055">
                     <Position>
                         <X>0</X>
                         <Y>-304</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="chain" Type="Item" Description="">Texture_0057</Property>
+                        <Property Type="Item" Name="chain" Description="">Texture_0057</Property>
                     </CustomProperties>
                     <Rotation>0</Rotation>
                     <Scale>
@@ -820,19 +819,19 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\red_star.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\red_star</asset_name>
+                    <texture_filename>red_star.png</texture_filename>
+                    <asset_name>red_star</asset_name>
                     <Origin>
                         <X>34</X>
                         <Y>34</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0056" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0056">
                     <Position>
                         <X>-64</X>
                         <Y>-240</Y>
                     </Position>
-                    <CustomProperties />
+                    <CustomProperties/>
                     <Rotation>0</Rotation>
                     <Scale>
                         <X>1</X>
@@ -847,24 +846,24 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\rotation_center.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\rotation_center</asset_name>
+                    <texture_filename>rotation_center.png</texture_filename>
+                    <asset_name>rotation_center</asset_name>
                     <Origin>
                         <X>16</X>
                         <Y>16</Y>
                     </Origin>
                 </Item>
-                <Item xsi:type="TextureItem" Name="Texture_0057" Visible="true">
+                <Item Visible="true" xsi:type="TextureItem" Name="Texture_0057">
                     <Position>
                         <X>-112</X>
                         <Y>-192</Y>
                     </Position>
                     <CustomProperties>
-                        <Property Name="rotate" Type="Item" Description="">Texture_0056</Property>
-                        <Property Name="time" Type="string" Description="">
+                        <Property Type="Item" Name="rotate" Description="">Texture_0056</Property>
+                        <Property Type="string" Name="time" Description="">
                             <string>7</string>
                         </Property>
-                        <Property Name="angle" Type="string" Description="">
+                        <Property Type="string" Name="angle" Description="">
                             <string>-360</string>
                         </Property>
                     </CustomProperties>
@@ -882,8 +881,8 @@
                     </TintColor>
                     <FlipHorizontally>false</FlipHorizontally>
                     <FlipVertically>false</FlipVertically>
-                    <texture_filename>D:\work\AvoiderAndroid\gleed2d\action.png</texture_filename>
-                    <asset_name>D:\work\AvoiderAndroid\gleed2d\action</asset_name>
+                    <texture_filename>action.png</texture_filename>
+                    <asset_name>action</asset_name>
                     <Origin>
                         <X>32</X>
                         <Y>32</Y>
@@ -896,10 +895,10 @@
             </ScrollSpeed>
         </Layer>
     </Layers>
-    <CustomProperties />
+    <CustomProperties/>
     <EditorRelated>
         <NextItemNumber>57</NextItemNumber>
-        <ContentRootFolder>C:\</ContentRootFolder>
+        <ContentRootFolder>D:\work\AvoiderAndroid\gleed2d\</ContentRootFolder>
         <CameraPosition>
             <X>426.353882</X>
             <Y>-225.95166</Y>

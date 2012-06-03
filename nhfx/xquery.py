@@ -38,11 +38,12 @@ class Text(Node):
         
         
 class Attribute(Node):
-    def __init__(self, name, value=None, namespace=None):
+    def __init__(self, name, value=None, namespace=None,shortns=None):
         super(Attribute, self).__init__()
         self.name = name
         self.value = value
         self.namespace = namespace
+        self.shortns = shortns
         
     def __repr__(self):
         return "Attribute(%s, %s, %s)" % (self.namespace, self.name, str(self.value))
@@ -51,7 +52,10 @@ class Attribute(Node):
         yield self
         
     def render(self):
-        return '%s="%s"' %(self.name, str(self.value))
+        if self.shortns:
+            return '%s:%s="%s"' %(self.shortns,self.name, str(self.value))
+        else:
+            return '%s="%s"' %(self.name, str(self.value))
         
         
         
@@ -120,7 +124,7 @@ def _parse_attribute(parent, node):
     if full_ns is None:
         full_ns = ns
         
-    attribute = Attribute(name=name, namespace=full_ns, value=value)
+    attribute = Attribute(name=name, namespace=full_ns, value=value,shortns=ns)
     return attribute
         
 def _parse_element(parent, node):
